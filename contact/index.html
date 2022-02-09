@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <!-- meta -->
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <link rel="icon" href="/img/logo.png" />
+        <title>contact - box supremacy</title>
+
+        <!-- stylesheets -->
+        <link rel="stylesheet" href="/css/vars.css" />
+        <link rel="stylesheet" href="/css/root.css" />
+        <link rel="stylesheet" href="/css/navbar.css" />
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" />
+        <style>
+            h3:not(:first-child) {
+                border-top: 1px solid var(--light-blue);
+            }
+
+            h3 {
+                font-size: 29px;
+                padding-top: 70px;
+            }
+        </style>
+
+        <!-- scripts -->
+        <script src="/lib/jquery.js"></script>
+        <script src="/js/navbar.js"></script>
+    </head>
+    <body>
+        <!-- the header will autofill from the navbar script: js/navbar.js -->
+        <header></header>
+
+        <main>
+            <div class="section">
+                <h1>contact</h1>
+                <p>reach out to me, terrorize me, give me internet points, etc</p>
+            </div>
+            <div class="section">
+                <h3>primary</h3>
+                <p>the most common ways to contact me. use these methods first</p>
+                <ul>
+                    <li><a href="javascript:void(0);" onclick="return show('discord', 'main')">discord</a></li>
+                </ul>
+            </div>
+            <div class="section">
+                <h3>everything else</h3>
+                <p>use these if you can't reach out to me with other platforms. consider this the list of other social accounts i have</p>
+                <ul>
+                    <li><a href="https://twitter.com/boxsupremacy">twitter</a></li>
+                    <li><a href="https://instagram.com/box.supremacy">instagram</a></li>
+                    <li><a href="https://reddit.com/r/rhearmas">reddit</a></li>
+                </ul>
+            </div>
+            <div class="section" style="text-align: left">
+                <a onclick="document.documentElement.scrollTop = 0;" href="javascript:void(0)">(&uparrow; back to top)</a>
+            </div>
+        </main>
+
+        <!-- same thing from header applies here -->
+        <footer></footer>
+    </body>
+</html>
