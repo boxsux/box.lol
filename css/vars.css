@@ -1,0 +1,25 @@
+/*
+ * Variables for CSS.
+ * Most of the default colours go here.
+ * Element-specific changes can be specified in other files.
+ */
+
+:root {
+    --color-title-dark: #eceff4;
+    --color-header-dark: #e5e9f0;
+    --color-primary-dark: #d8dee9;
+    --color-fourth-dark: #4c566a;
+    --color-third-dark: #434c5e;
+    --color-secondary-dark: #3b4252;
+    --main-bg-color-dark: #2e3440;
+
+    --red: #bf616a;
+    --orange: #d08770;
+    --yellow: #ebcb8b;
+    --green: #a3be8c;
+    --teal: #8fbcbb;
+    --light-blue: #88c0d0;
+    --blue: #81a1c1;
+    --dark-blue: #5e81ac;
+    --purple: #b48ead;
+}
