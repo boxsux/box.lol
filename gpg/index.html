@@ -33,29 +33,53 @@
                 <h1>gpg and my authenticity</h1>
                 <p>what the hell does this mean????</p>
             </div>
-            <div class="section">
-                <h1>what is GPG?</h1>
-                <p>
-                    GPG stands for GNU Privacy Guard. a GPG signature is a digital signature that can be used to verify the authenticity of a file, which is signed
-                    with my GPG key. i will <em>always</em> use my GPG key to sign files that i send to you. if you do not receive a signature for a file i send as
-                    a SEPARATE FILE with a link to my public GPG key, then you shouldn't trust the file.
-                </p>
-                <p>
-                    under most circumstances, if you know the person who is sending you the file or files, then you should be fine. if you want to ever make sure
-                    that you are 100% certain that the file comes from me, follow the steps outlined below on how to do so.
-                </p>
-                <h2>if any of this doesn't make sense, don't worry about it. this is just for the sake of security.</h2>
-            </div>
-            <div class="section">
-                <h1>how to get my GPG key</h1>
-                <p>
-                    my GPG key is always available on either the Ubuntu keyserver or through this website. i'll always keep this key up-to-date with the key i use
-                    when signing files.
-                </p>
-                <h2>
-                    my public GPG key is <a href="./box-key.asc">0x014C98E166EC5073</a>.<br />click the highlighted text to view and optionally save my public key.
-                </h2>
-                <p>if you're here to verify the integrity of a file i sent you, keep reading. if not, feel free to just import the key into your keyring 😉</p>
+            <div class="flex flex-vert">
+                <svg viewbox="0 0 1920 250" xmlns="http://www.w3.org/2000/svg" class="divider">
+                    <path
+                        d="M1920 250H0V0s126.707 78.536 349.975 80.05c177.852 1.203 362.805-63.874 553.803-63.874 290.517 0 383.458 57.712 603.992 61.408 220.527 3.696 278.059-61.408 412.23-17.239"
+                        class="wavedivider1"
+                    ></path>
+                    <path d="M1920 144s-467.917 116.857-1027.243-17.294C369.986 1.322 0 45.578 0 45.578V250h1920V144z" class="wavedivider2"></path>
+                    <path
+                        d="M0 195.553s208.547-75.581 701.325-20.768c376.707 41.908 520.834-67.962 722.545-67.962 222.926 0 311.553 83.523 496.129 86.394V250H0v-54.447z"
+                        class="wavedivider3"
+                    ></path>
+                </svg>
+                <div class="section faq-questions" style="text-align: center;">
+                    <h1>what is GPG?</h1>
+                    <p>
+                        GPG stands for GNU Privacy Guard. a GPG signature is a digital signature that can be used to verify the authenticity of a file, which is signed
+                        with my GPG key. i will <em>always</em> use my GPG key to sign files that i send to you. if you do not receive a signature for a file i send as
+                        a SEPARATE FILE with a link to my public GPG key, then you shouldn't trust the file.
+                    </p>
+                    <p>
+                        under most circumstances, if you know the person who is sending you the file or files, then you should be fine. if you want to ever make sure
+                        that you are 100% certain that the file comes from me, follow the steps outlined below on how to do so.
+                    </p>
+                    <h2>if any of this doesn't make sense, don't worry about it. this is just for the sake of security.</h2>
+                </div>
+                <div class="section faq-questions" style="padding-top: 150px; text-align: center;">
+                    <h1>how to get my GPG key</h1>
+                    <p>
+                        my GPG key is always available on either the Ubuntu keyserver or through this website. i'll always keep this key up-to-date with the key i use
+                        when signing files.
+                    </p>
+                    <h2>
+                        my public GPG key is <a href="./box-key.asc">0x014C98E166EC5073</a>.<br />click the highlighted text to view and optionally save my public key.
+                    </h2>
+                    <p>if you're here to verify the integrity of a file i sent you, keep reading. if not, feel free to just import the key into your keyring 😉</p>
+                </div>
+                <svg viewbox="0 0 1920 250" xmlns="http://www.w3.org/2000/svg" class="divider bottom-divider">
+                    <path
+                        d="M1920 250H0V0s126.707 78.536 349.975 80.05c177.852 1.203 362.805-63.874 553.803-63.874 290.517 0 383.458 57.712 603.992 61.408 220.527 3.696 278.059-61.408 412.23-17.239"
+                        class="wavedivider1"
+                    ></path>
+                    <path d="M1920 144s-467.917 116.857-1027.243-17.294C369.986 1.322 0 45.578 0 45.578V250h1920V144z" class="wavedivider2"></path>
+                    <path
+                        d="M0 195.553s208.547-75.581 701.325-20.768c376.707 41.908 520.834-67.962 722.545-67.962 222.926 0 311.553 83.523 496.129 86.394V250H0v-54.447z"
+                        class="wavedivider3"
+                    ></path>
+                </svg>
             </div>
             <div class="section">
                 <h1>verifying files with GPG signatures</h1>
