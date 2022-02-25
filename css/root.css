@@ -7,7 +7,9 @@
 /*
  * Fonts
  */
-@import url('https://use.typekit.net/oes7vxj.css');
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,500;0,600;0,700;0,800;0,900;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Megrim&display=swap');
 
 /*
  * Meta formatting
@@ -25,7 +27,7 @@ body {
     background-color: var(--main-bg-color-dark);
     color: var(--color-primary-dark);
     margin: 0;
-    font-family: 'neue-haas-grotesk-display', sans-serif;
+    font-family: 'Raleway', sans-serif;
     font-weight: 400;
 }
 
@@ -33,11 +35,16 @@ body {
  * Basic formatting
  */
 
+h1 {
+    font-family: 'Playfair Display', serif;
+}
+
 h2,
 h3,
 h4,
 h5,
 h6 {
+    font-family: 'Playfair Display', serif;
     color: var(--color-header-dark);
 }
 
@@ -48,6 +55,8 @@ main > div.section:first-child {
 }
 
 main > div.section:first-child h1 {
+    font-family: 'Megrim', serif;
+    font-size: 72px;
     line-height: 60px;
 }
 
