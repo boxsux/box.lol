@@ -1,4 +1,10 @@
 /*
+ * ROOT CSS
+ * the main stylesheet for the majority of the website
+ * see vars.css for customizing the colors
+ */
+
+/*
  * Fonts
  */
 @import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@100;200;300;400;500;600;700&display=swap');
@@ -73,6 +79,10 @@ ol {
     text-align: left;
     margin-left: 0;
     line-height: 30px;
+}
+
+pre {
+    font-size: 20px;
 }
 
 /*

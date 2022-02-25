@@ -26,6 +26,13 @@ window.onclick = function (e) {
     $('.dd-active').map(function () {
         this.classList.remove('dd-active');
     });
+
+    var popupChild = $('.popup-text', $(e.target));
+    if ($(e.target).hasClass('popup') && !popupChild.hasClass('popup-visible')) {
+        popupChild.addClass('popup-visible');
+    } else {
+        popupChild.removeClass('popup-visible');
+    }
 };
 
 // Toggle selected dropdown
