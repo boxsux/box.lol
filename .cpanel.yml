@@ -1,5 +1,5 @@
 ---
 deployment:
     tasks:
-        - export DEPLYPATH=$HOME/public_html/
+        - export DEPLOYPATH=$HOME/public_html/
         - /bin/cp -R $HOME/src_repo/* $DEPLOYPATH
