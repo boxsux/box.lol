@@ -7,7 +7,6 @@
 /*
  * Fonts
  */
-@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@100;200;300;400;500;600;700&display=swap');
 @import url('https://use.typekit.net/oes7vxj.css');
 
 /*
@@ -26,7 +25,7 @@ body {
     background-color: var(--main-bg-color-dark);
     color: var(--color-primary-dark);
     margin: 0;
-    font-family: 'neue-haas-grotesk-display', 'Josefin Sans', sans-serif;
+    font-family: 'neue-haas-grotesk-display', sans-serif;
     font-weight: 400;
 }
 
