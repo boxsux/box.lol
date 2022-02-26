@@ -4,14 +4,15 @@
  * Element-specific changes can be specified in other files.
  */
 
-:root {
-    --color-title-dark: #eceff4;
-    --color-header-dark: #e5e9f0;
-    --color-primary-dark: #d8dee9;
-    --color-fourth-dark: #4c566a;
-    --color-third-dark: #434c5e;
-    --color-secondary-dark: #3b4252;
-    --main-bg-color-dark: #2e3440;
+/* Nord colors */
+/* :root {
+    --color-title: #eceff4;
+    --color-header: #e5e9f0;
+    --color-paragraph: #d8dee9;
+    --color-bg: #2e3440;
+    --color-bg-bright: #3b4252;
+    --color-bg-brighter: #434c5e;
+    --color-bg-brightest: #4c566a;
 
     --red: #bf616a;
     --orange: #d08770;
@@ -22,4 +23,25 @@
     --blue: #81a1c1;
     --dark-blue: #5e81ac;
     --purple: #b48ead;
+} */
+
+/* Lukin colors */
+:root {
+    --color-title: #fff;
+    --color-header: #eee;
+    --color-paragraph: #ddd;
+    --color-bg: #000;
+    --color-bg-bright: #101010;
+    --color-bg-brighter: #151515;
+    --color-bg-brightest: #222;
+
+    --red: #ff5252;
+    --orange: #ffab40;
+    --yellow: #ffff00;
+    --green: #47ffa0;
+    --teal: mix(var(--green), var(--light-blue));
+    --light-blue: #40c4ff;
+    --blue: #6796e6;
+    --dark-blue: #485391;
+    --purple: ##e040fb;
 }

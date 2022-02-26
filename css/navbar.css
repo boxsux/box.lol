@@ -4,14 +4,14 @@ header {
     left: 0;
     right: 0;
     top: 0;
-    background-color: var(--color-secondary-dark);
-    color: var(--color-title-dark);
+    background-color: var(--color-bg-bright);
+    color: var(--color-title);
     padding: 5px;
     overflow: visible;
     border-radius: 4px;
     width: 67%;
     margin: 50px auto 0;
-    box-shadow: 0 5px 50px #2e3440;
+    box-shadow: 0 5px 50px var(--color-bg-bright);
     z-index: 5;
 }
 
@@ -23,7 +23,7 @@ header img {
 
 header a {
     float: left;
-    color: var(--color-primary-dark);
+    color: var(--color-paragraph);
     text-align: center;
     padding: 12px;
     text-decoration: none;
@@ -45,11 +45,11 @@ header a.logo {
 
 header a:hover {
     color: var(--light-blue);
-    background-color: var(--color-third-dark);
+    background-color: var(--color-bg-brighter);
 }
 
 header a:active {
-    background-color: var(--color-fourth-dark);
+    background-color: var(--color-bg-brightest);
 }
 
 .topnav-content {
@@ -106,12 +106,12 @@ header a:active {
 
     .topnav-content.responsive .dd-content {
         position: absolute;
-        background-color: var(--color-third-dark);
+        background-color: var(--color-bg-brighter);
         width: 96.2vw;
     }
 
     .topnav-content.responsive .dd-content a:hover {
-        background-color: var(--color-fourth-dark);
+        background-color: var(--color-bg-brightest);
     }
 
     .topnav-content.responsive .dropdown .button {
@@ -133,8 +133,8 @@ header a:active {
     font-size: 19px;
     border: none;
     outline: none;
-    color: var(--color-primary-dark);
-    background-color: var(--color-secondary-dark);
+    color: var(--color-paragraph);
+    background-color: var(--color-bg-bright);
     font-family: inherit;
     font-weight: 400;
     padding: 12px 12px 15.5px;
@@ -146,18 +146,18 @@ header a:active {
 }
 
 .dropdown .button:hover {
-    background-color: var(--color-third-dark);
+    background-color: var(--color-bg-brighter);
     color: var(--light-blue);
     transition: all 0.1s ease-in-out;
 }
 
 .dropdown .button:active {
-    background-color: var(--color-fourth-dark);
+    background-color: var(--color-bg-brightest);
 }
 
 .dropdown .dd-active,
 .dropdown .dd-active:hover {
-    background-color: var(--color-fourth-dark);
+    background-color: var(--color-bg-brightest);
     color: var(--light-blue);
 }
 
@@ -176,7 +176,7 @@ header a:active {
 .dd-content {
     display: none;
     position: absolute;
-    background-color: var(--color-third-dark);
+    background-color: var(--color-bg-brighter);
     min-width: 160px;
     box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
     z-index: 1;
@@ -186,16 +186,16 @@ header a:active {
 
 .dd-content a {
     float: none;
-    background-color: var(--color-third-dark);
-    color: var(--color-primary-dark);
+    background-color: var(--color-bg-brighter);
+    color: var(--color-paragraph);
     padding: 12px 16px;
     text-decoration: none;
     display: block;
 }
 
 .dd-content a:hover {
-    background-color: var(--color-fourth-dark);
-    color: var(--color-header-dark);
+    background-color: var(--color-bg-brightest);
+    color: var(--color-header);
 }
 
 .show {
