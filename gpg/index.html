@@ -18,6 +18,15 @@
             p {
                 padding-top: 20px;
             }
+
+            .verifying-gpg > h2 {
+                margin-bottom: 0;
+            }
+
+            .verifying-gpg > p {
+                padding-top: 0;
+                margin-top: 10px;
+            }
         </style>
 
         <!-- scripts -->
@@ -25,7 +34,6 @@
         <script src="/js/navbar.js"></script>
     </head>
     <body>
-        <!-- the header will autofill from the navbar script: js/navbar.js -->
         <header></header>
 
         <main>
@@ -61,11 +69,11 @@
                 <div class="section faq-questions" style="padding-top: 150px; text-align: center;">
                     <h1>how to get my GPG key</h1>
                     <p>
-                        my GPG key is always available on either the Ubuntu keyserver or through this website. i'll always keep this key up-to-date with the key i use
+                        my GPG key is always available on either the Ubuntu keyserver, and this page serves as the link to the keyserver. i'll always keep this key up-to-date with the key i use
                         when signing files.
                     </p>
                     <h2>
-                        my public GPG key is <a href="./box-key.asc">0x014C98E166EC5073</a>.<br />click the highlighted text to view and optionally save my public key.
+                        my public GPG key is <a href="./box-key.asc">0x014C98E166EC5073</a>.<br />click the highlighted text to save my public key.
                     </h2>
                     <p>if you're here to verify the integrity of a file i sent you, keep reading. if not, feel free to just import the key into your keyring 😉</p>
                 </div>
@@ -81,7 +89,7 @@
                     ></path>
                 </svg>
             </div>
-            <div class="section">
+            <div class="section verifying-gpg">
                 <h1>verifying files with GPG signatures</h1>
 
                 <h2>PRE) install gpg on your machine.</h2>
@@ -92,7 +100,7 @@
                 </p>
 
                 <h2>I) download the public key.</h2>
-                <p>it's linked above in the blue text, click the link and save the file.</p>
+                <p>it's linked above in the blue text. click the link to save the file.</p>
 
                 <h2>II) import the key into your keyring.</h2>
                 <p>open up your terminal or command prompt, and navigate to the directory the .asc file is in. if you can't do that, look up how to do it for your system. from there, run the following:
