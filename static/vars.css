@@ -1,0 +1,27 @@
+/*
+ * Variables for CSS.
+ * Most of the default colours go here.
+ * Element-specific changes can be specified in other files.
+ */
+
+/* Lukin colors */
+:root {
+    --title: 255, 255, 255;
+    --header: 238, 238, 238;
+    --paragraph: 221, 221, 221;
+    --bg: 0, 0, 0;
+    --bg-bright: 16, 16, 16;
+    --bg-brighter: 21, 21, 21;
+    --bg-brightest: 34, 34, 34;
+
+    --red: 255, 82, 82;
+    --orange: 255, 171, 64;
+    --yellow: 255, 255, 0;
+    --green: 71, 255, 160;
+    --teal: 68, 226, 208;
+    --light-blue: 64, 196, 255;
+    --blue: 103, 150, 230;
+    --dark-blue: 72, 83, 145;
+    --purple: 224, 64, 251;
+    --pink: 255, 51, 102;
+}
