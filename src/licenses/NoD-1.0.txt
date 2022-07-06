@@ -1,0 +1,90 @@
+No outside Distribution (NoD) License v1.0
+
+Copyright (C) [year] [full name] ([contact email])
+
+SUMMARY
+
+Everyone within the same group or organization as the Work's Origin may be shared with other users in this organization. Sharing to individuals or groups outside the Origin is not permitted. Stating your changes is necessary, and the same Copyright notice and License must be used in the modified Work.
+
+The Origin of this Work is [location].
+
+TERMS
+
+ 0. Definitions
+
+  "License" refers to this license or any related license.
+
+  "Work" refers to the licensed creative work. This includes, but is not limited to, software applications, documents, spreadsheets, forms, databases, written works, and digital art.
+
+  "Origin" refers to where the Work originates from. This may be the person or group who provided the original Content.
+
+  "Terms" refers to the TERMS AND CONDITIONS of this License or any other License if referred to.
+
+  "Exclusion" refers to any item listed in section 5 of NoD-1.0's Terms.
+
+  "Author" refers to the creator of the Work.
+
+ 1. Distribution of the Work.
+
+You are allowed to distribute verbatim or modified copies of the Work within the Origin. Distributing the Work outside its Origin is not allowed, unless specified in Extra Conditions B.
+
+You must be a member within the Origin to use, read, or otherwise view the Content. Enforcing compliance is to be done by the Author or Authors.
+
+Distributing the original Work with other members of the Origin is allowed. The copyright notice provided in the original Work's License, and the License itself, must be preserved.
+
+Distribution of a modified Work requires permission from the original copyright holder. The copyright holder has an email address appended to their name in parentheses at the top of this License. When distributing the modified Work, provide the License to the Work before sending it to the recipient. If they agree to the new Terms imposed by the modified Work's License, you may send the Work. If they decline, do not send the modified Work.
+
+ 2. Modification of the Work.
+
+Modification of the Work is permitted, but distributing it is subject to section 1 of these Terms. Modifying the Work in a way that violates these Terms is not permitted, and may void your license.
+
+All changes must be clearly stated in the modified Work. Remove any text surrounded by {curly braces}, but otherwise fill in any blank spaces necessary, and remove irrelevant portions. You must clearly list changes to:
+
+  a) Any text.
+  b) Any media, such as images, videos, or audio.
+  c) Any rights granted to the user.
+  d) Any part of this License, as permitted by these Terms.
+
+If you want to make this Work available to more individuals or groups, it is recommended to use a Creative Commons (CC) license instead of this one.
+
+Harming the Work is not allowed. This includes, but is not limited to:
+
+  a) Copying the Work and only changing its name.
+  b) Selling the original Work with barely any changes, or nothing changed whatsoever.
+  c) Adding malicious content to the original Work.
+
+ 3. Voiding of your rights.
+
+Your rights may be revoked for any reason. If your rights are revoked, you will lose access to any of the Work covered by this license. Violations of these Terms puts you at risk of losing your rights to the Work.
+
+Modification of this License is not allowed whatsoever, unless a revision of the original License is provided by the original writer. Modifying this License to circumvent any of the Terms results in an immediate void of your rights. The only parts of this License that may be changed is by the Author, unless otherwise mentioned in "Additional rights granted to the user".
+
+END OF TERMS
+
+EXTRA CONDITIONS IMPOSED BY THE AUTHORS
+
+The Author may add additional terms to this License to grant you more rights than originally imposed. One (1) additional section may be added to this License. If it does not exist, no additional rights are granted by the Author, and nothing else is provided by the Author.
+
+ a. Additional rights granted to the user.
+The Author has the option to grant additional rights to you when accessing this Work. These additional rights have been provided below.
+
+[List of additional rights/{If no additional rights} No additional rights provided.]
+
+ b. Exclusions to this License.
+Exclusions are provided by the Author when they want to extend the reach of this Work to more individuals. They bypass paragraph 2 of section 1 in these Terms. The Origin will not be listed here, as these Exclusions append to the Origin.
+
+[List of exclusions]
+
+ c. Modifications made to the Work.
+
+{Remove this section if no modifications are made.}
+
+This work has been modified by [full name]. A list of changes and additional terms are provided below.
+
+This modified Work uses NoD-1.0. Your rights remain the same as in the original License, unless specified in section B of these extra conditions.
+
+[List of changes]
+
+END OF EXTRA CONDITIONS
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
