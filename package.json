@@ -1,27 +1,34 @@
 {
-	"name": "box.lol-svelte-kit",
-	"version": "0.0.1",
-	"scripts": {
-		"dev": "svelte-kit dev",
-		"build": "svelte-kit build",
-		"package": "svelte-kit package",
-		"preview": "svelte-kit preview",
-		"prepare": "svelte-kit sync",
-		"check": "svelte-check --tsconfig ./tsconfig.json",
-		"check:watch": "svelte-check --tsconfig ./tsconfig.json --watch"
-	},
-	"devDependencies": {
-		"@sveltejs/adapter-auto": "next",
-		"@sveltejs/adapter-node": "1.0.0-next.78",
-		"@sveltejs/kit": "next",
-		"@types/yup": "^0.29.14",
-		"svelte": "^3.44.0",
-		"svelte-check": "^2.2.6",
-		"svelte-preprocess": "^4.10.1",
-		"tslib": "^2.3.1",
-		"typescript": "~4.6.2",
-		"svelte-forms-lib": "^2.0.1",
-		"zod": "^3.17.3"
-	},
-	"type": "module"
+    "name": "box.lol-svelte-kit",
+    "version": "0.0.1",
+    "scripts": {
+        "dev": "vite dev",
+        "build": "vite build",
+        "package": "vite package",
+        "preview": "vite preview",
+        "prepare": "vite sync",
+        "check": "svelte-check --tsconfig ./tsconfig.json",
+        "check:watch": "svelte-check --tsconfig ./tsconfig.json --watch"
+    },
+    "devDependencies": {
+        "@sveltejs/adapter-auto": "next",
+        "@sveltejs/adapter-node": "1.0.0-next.78",
+        "@sveltejs/kit": "next",
+        "@types/yup": "^0.29.14",
+        "svelte": "^3.44.0",
+        "svelte-check": "^2.2.6",
+        "svelte-forms-lib": "^2.0.1",
+        "svelte-preprocess": "^4.10.1",
+        "tslib": "^2.3.1",
+        "typescript": "~4.6.2",
+        "vite": "^2.9.13",
+        "zod": "^3.17.3"
+    },
+    "type": "module",
+    "dependencies": {
+        "aws-sdk": "^2.1168.0",
+        "dotenv": "^16.0.1",
+        "inquirer": "^9.0.0",
+        "url": "^0.11.0"
+    }
 }
