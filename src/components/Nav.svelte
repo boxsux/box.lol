@@ -1,14 +1,24 @@
 <script>
-    import { page } from '$app/stores';
+    import { page } from '$app/stores'
 </script>
 
 <nav>
     <ul>
-        <li class:navbar-active={$page.url.pathname === '/'}><a href="/">home</a></li>
-        <li class:navbar-active={$page.url.pathname.includes('/about')}><a href="/about">about</a></li>
-        <li class:navbar-active={$page.url.pathname.includes('/blog')}><a sveltekit:prefetch href="/blog">blog</a></li>
-        <li class:navbar-active={$page.url.pathname.includes('/catfacts')}><a sveltekit:prefetch href="/catfacts">cat facts</a></li>
-        <li class:navbar-active={$page.url.pathname.includes('/projects')}><a href="/projects">projects</a></li>
+        <li class:navbar-active={$page.url.pathname === '/'}>
+            <a href="/">home</a>
+        </li>
+        <li class:navbar-active={$page.url.pathname.includes('/about')}>
+            <a href="/about">about</a>
+        </li>
+        <li class:navbar-active={$page.url.pathname.includes('/blog')}>
+            <a sveltekit:prefetch href="/blog">blog</a>
+        </li>
+        <li class:navbar-active={$page.url.pathname.includes('/catfacts')}>
+            <a sveltekit:prefetch href="/catfacts">cat facts</a>
+        </li>
+        <li class:navbar-active={$page.url.pathname.includes('/projects')}>
+            <a href="/projects">projects</a>
+        </li>
     </ul>
 </nav>
 
@@ -35,6 +45,7 @@
     li {
         display: block;
         float: left;
+        font-size: 1.2em;
     }
 
     .navbar-active {
